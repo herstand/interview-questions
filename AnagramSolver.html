@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>See if two phrases are anagrams.</title>
+<script src='anagram-solver.js' type='application/javascript'></script>
+</head>
+<body>
+<form>
+<input id='str1' type='text' placeholder='Type a word or phrase…' />
+<input id='str2' type='text' placeholder='Type another word or phrase…' />
+<button type='submit'>Check if they are anagrams</button>
+<p id='solution'></p>
+</form>
+<script type='application/javascript'>
+document.querySelector('form').addEventListener(
+  'submit',
+  (e) => {
+    e.preventDefault();
+    window.solution.innerHTML = isAnagramMatch(window.str1.value, window.str2.value);
+    return false;
+  }
+);
+</script>
+</body>
+</html>
