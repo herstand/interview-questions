@@ -1,5 +1,6 @@
 /* Same function, with and without comments… */
 
+/*
 // Fully functional anagram solver
 function isAnagramMatch(str1, str2) {
   // Strings must be same length
@@ -38,8 +39,9 @@ function isAnagramMatch(str1, str2) {
         ,
         {}
       )
-    )
+    );
 }
+*/
 
 function isAnagramMatch(str1, str2) {
   return str1.length === str2.length &&
@@ -61,5 +63,5 @@ function isAnagramMatch(str1, str2) {
         ,
         {}
       )
-    )
+    );
 }
