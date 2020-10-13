@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack:///./src/pages/404.js"],"names":["NoPage"],"mappings":"kHAAA,kFAGe,SAASA,IACtB,OAAO","file":"component---src-pages-404-js-869f978dcc2ab835466f.js","sourcesContent":["import React from \"react\";\nimport \"./index.module.css\";\n\nexport default function NoPage() {\n  return <main>Nothing to see here</main>;\n}\n"],"sourceRoot":""}
