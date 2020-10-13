@@ -21,10 +21,11 @@ export default function Login() {
   const login = (e) => {
     e.preventDefault();
     if (username === "admin" && password === "admin") {
-      window.location = "/transactions";
+      window.location = "transactions";
     } else {
       alert("Hint: Try 'admin' and 'admin'");
     }
+    return false;
   };
 
   return (
