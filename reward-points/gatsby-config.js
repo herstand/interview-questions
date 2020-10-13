@@ -5,7 +5,6 @@
  */
 
 module.exports = {
-  /* Your site config here */
   plugins: [],
-  pathPrefix: "/interview-questions/reward-points/public/"
+  pathPrefix: "/interview-questions/reward-points/public"
 };
