@@ -80,7 +80,7 @@ export default function Tracker() {
       <section className={styles.tracker}>
         <h1>
           <img
-            src="/images/logo.png"
+            src="../images/logo.png"
             width="300"
             alt="Apex logo"
             title="Apex Systems Rewards"

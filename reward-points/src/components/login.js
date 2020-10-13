@@ -31,7 +31,7 @@ export default function Login() {
     <section className={styles.login}>
       <h1>
         <img
-          src="/images/logo.png"
+          src="./images/logo.png"
           width="300"
           alt="Apex logo"
           title="Apex Systems Rewards"
