@@ -39,11 +39,11 @@ export default function Tracker() {
     if (isStillLoadingTransactions) {
       const loadTransactions = async () => {
         const loadedTransactions = (
-          await (await fetch("/data/transactions.json")).json()
+          await (await fetch("../data/transactions.json")).json()
         ).transactions;
         setTransactions(loadedTransactions);
         const loadedCustomers = await (
-          await fetch("/data/customers.json")
+          await fetch("../data/customers.json")
         ).json();
         setCustomers(loadedCustomers);
         setIsLoadingTransactions(false);
