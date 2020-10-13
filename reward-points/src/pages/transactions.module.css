@@ -1,0 +1,13 @@
+.tracker {
+  text-align: left;
+}
+
+.tracker table {
+  border-collapse: collapse;
+  margin: auto;
+}
+.tracker th,
+.tracker td {
+  border: 1px solid white;
+  padding: 5px 8px;
+}

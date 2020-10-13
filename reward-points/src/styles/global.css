@@ -1,0 +1,18 @@
+html {
+  background-color: #44546a;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+*,
+th,
+td,
+input {
+  color: white;
+  font-size: 1rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
