@@ -93,9 +93,9 @@ export default function Tracker() {
                 selectCustomer={selectCustomer}
                 customers={Object.values(customers)}
               />
-              {selectedCustomer === "all" ? " have " : " has "}
+              {selectedCustomer === "all" ? " have earned " : " has earned "}
               <span>{!isStillLoadingTransactions ? rewardPoints : 0}</span>{" "}
-              reward point{rewardPoints !== 1 ? "s" : ""}.
+              reward point{rewardPoints !== 1 ? "s" : ""} in the past 90 days.
             </span>
           </h2>
         ) : null}
